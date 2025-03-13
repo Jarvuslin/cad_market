@@ -7,7 +7,7 @@ const products = [
     title: 'Professional CAD Software License',
     price: 299.99,
     description: 'Full-featured CAD software license for professional designers and engineers. Includes 1 year of updates and support.',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/file.svg',
     category: 'Software'
   },
   {
@@ -15,7 +15,7 @@ const products = [
     title: 'Architectural Blueprint Templates',
     price: 49.99,
     description: 'Collection of 50+ premium architectural blueprint templates for residential and commercial projects.',
-    image: 'https://images.unsplash.com/photo-1574359411659-11a4b39013d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/window.svg',
     category: 'Templates'
   },
   {
@@ -23,7 +23,7 @@ const products = [
     title: 'Engineering Component Library',
     price: 129.99,
     description: 'Extensive library of 3D engineering components and parts for mechanical and electrical design projects.',
-    image: 'https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/globe.svg',
     category: 'Libraries'
   },
   {
@@ -31,7 +31,7 @@ const products = [
     title: 'Interior Design Package',
     price: 79.99,
     description: 'Complete interior design package with furniture models, textures, and lighting presets for residential spaces.',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/next.svg',
     category: 'Design'
   },
   {
@@ -39,7 +39,7 @@ const products = [
     title: 'CAD Training Course Bundle',
     price: 199.99,
     description: 'Comprehensive training course bundle covering advanced CAD techniques for various industries. Includes 40+ hours of video content.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22731c9c64?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/vercel.svg',
     category: 'Education'
   },
   {
@@ -47,7 +47,7 @@ const products = [
     title: 'Custom 3D Printing Service',
     price: 149.99,
     description: 'Professional 3D printing service for your CAD models. Fast turnaround and high-quality materials available.',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: '/file.svg',
     category: 'Services'
   }
 ];
