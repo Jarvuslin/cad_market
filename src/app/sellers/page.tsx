@@ -34,13 +34,15 @@ export default function SellerDashboard() {
           <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Total Listings</h3>
             <p className="text-3xl font-bold text-blue-600">0</p>
-            <p className="text-sm text-gray-600 mt-2">You haven&apos;t created any listings yet.</p>
+            <p className="text-sm text-gray-600 mt-2">You haven&#39;t created any listings yet.</p>
           </div>
+          
           <div className="bg-green-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Total Sales</h3>
             <p className="text-3xl font-bold text-green-600">$0.00 CAD</p>
             <p className="text-sm text-gray-600 mt-2">Start selling to see your revenue here.</p>
           </div>
+          
           <div className="bg-purple-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Account Status</h3>
             <p className="text-xl font-semibold text-purple-600">Free Tier</p>
@@ -81,6 +83,7 @@ export default function SellerDashboard() {
                 </li>
               </ul>
             </div>
+            
             <div>
               <h3 className="text-xl font-semibold mb-4">Next Steps</h3>
               <ol className="list-decimal list-inside space-y-3 text-gray-700">
