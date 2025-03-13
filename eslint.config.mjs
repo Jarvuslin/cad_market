@@ -12,10 +12,12 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
+    // Override for files in src/app folder
+    files: ["src/app/**/*.{ts,tsx}"],
     rules: {
-      "react/no-unescaped-entities": "off"
-    }
-  }
+      "react/no-unescaped-entities": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
