@@ -50,20 +50,30 @@ export default function Home() {
       <section className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Canada&apos;s Premier Digital Marketplace</h1>
-            <p className="text-xl mb-8">Buy and sell CAD designs, templates, and services exclusively for Canadians.</p>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              Canada&apos;s Premier Digital Marketplace
+            </h1>
+            <p className="text-xl mb-8">
+              Buy and sell CAD designs, templates, and services exclusively for Canadians.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/categories" className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium text-lg transition-colors inline-block text-center">
+              <Link
+                href="/categories"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium text-lg transition-colors inline-block text-center"
+              >
                 Browse Categories
               </Link>
-              <Link href="/sellers" className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-md font-medium text-lg transition-colors inline-block text-center">
+              <Link
+                href="/sellers"
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-md font-medium text-lg transition-colors inline-block text-center"
+              >
                 Become a Seller
               </Link>
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-full max-w-md h-64 md:h-80">
-              <Image 
+              <Image
                 src="/globe.svg"
                 alt="Canadian Marketplace"
                 fill
@@ -81,8 +91,8 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">Browse Categories</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {categories.map((category) => (
-              <Link 
-                href={`/categories?category=${category.name}`} 
+              <Link
+                href={`/categories?category=${category.name}`}
                 key={category.name}
                 className={`${category.color} rounded-lg p-6 text-center hover:shadow-md transition-shadow`}
               >
@@ -98,7 +108,6 @@ export default function Home() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Featured Products</h2>
-          
           {isLoading ? (
             <div className="flex justify-center items-center h-64">
               <p className="text-xl text-gray-500">Loading products...</p>
@@ -106,7 +115,7 @@ export default function Home() {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
-                <ProductCard 
+                <ProductCard
                   key={product.id}
                   id={product.id}
                   title={product.title}
@@ -124,16 +133,24 @@ export default function Home() {
       {/* Call to Action Section */}
       <section className="py-16 bg-blue-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Join Canada&apos;s Digital Marketplace?</h2>
+          <h2 className="text-3xl font-bold mb-6">
+            Ready to Join Canada&apos;s Digital Marketplace?
+          </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             Whether you&apos;re looking to buy premium CAD resources or sell your expertise, 
             CAD Market connects Canadians with the digital tools they need.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/categories" className="bg-blue-600 text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium text-lg transition-colors inline-block">
+            <Link
+              href="/categories"
+              className="bg-blue-600 text-white hover:bg-blue-700 px-8 py-3 rounded-md font-medium text-lg transition-colors inline-block"
+            >
               Start Shopping
             </Link>
-            <Link href="/sellers" className="bg-gray-800 text-white hover:bg-gray-900 px-8 py-3 rounded-md font-medium text-lg transition-colors inline-block">
+            <Link
+              href="/sellers"
+              className="bg-gray-800 text-white hover:bg-gray-900 px-8 py-3 rounded-md font-medium text-lg transition-colors inline-block"
+            >
               Start Selling
             </Link>
           </div>

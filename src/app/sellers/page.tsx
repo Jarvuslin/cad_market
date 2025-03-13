@@ -19,7 +19,6 @@ export default function SellerDashboard() {
             tools and features to help you manage your CAD marketplace listings, track sales, 
             and communicate with buyers.
           </p>
-          
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium transition-colors">
               Create New Listing
@@ -37,13 +36,11 @@ export default function SellerDashboard() {
             <p className="text-3xl font-bold text-blue-600">0</p>
             <p className="text-sm text-gray-600 mt-2">You haven&apos;t created any listings yet.</p>
           </div>
-          
           <div className="bg-green-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Total Sales</h3>
             <p className="text-3xl font-bold text-green-600">$0.00 CAD</p>
             <p className="text-sm text-gray-600 mt-2">Start selling to see your revenue here.</p>
           </div>
-          
           <div className="bg-purple-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Account Status</h3>
             <p className="text-xl font-semibold text-purple-600">Free Tier</p>
@@ -54,30 +51,36 @@ export default function SellerDashboard() {
         {/* Getting Started Section */}
         <div className="bg-white rounded-lg shadow-md p-8">
           <h2 className="text-2xl font-semibold mb-6">Getting Started</h2>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">Seller Resources</h3>
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-2">✓</span>
-                  <Link href="#" className="text-blue-600 hover:underline">Seller Guidelines</Link>
+                  <Link href="#" className="text-blue-600 hover:underline">
+                    Seller Guidelines
+                  </Link>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-2">✓</span>
-                  <Link href="#" className="text-blue-600 hover:underline">Pricing Strategies</Link>
+                  <Link href="#" className="text-blue-600 hover:underline">
+                    Pricing Strategies
+                  </Link>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-2">✓</span>
-                  <Link href="#" className="text-blue-600 hover:underline">Product Photography Tips</Link>
+                  <Link href="#" className="text-blue-600 hover:underline">
+                    Product Photography Tips
+                  </Link>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-2">✓</span>
-                  <Link href="#" className="text-blue-600 hover:underline">Marketing Your Products</Link>
+                  <Link href="#" className="text-blue-600 hover:underline">
+                    Marketing Your Products
+                  </Link>
                 </li>
               </ul>
             </div>
-            
             <div>
               <h3 className="text-xl font-semibold mb-4">Next Steps</h3>
               <ol className="list-decimal list-inside space-y-3 text-gray-700">
