@@ -50,7 +50,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">Canada's Premier Digital Marketplace</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Canada&apos;s Premier Digital Marketplace</h1>
             <p className="text-xl mb-8">Buy and sell CAD designs, templates, and services exclusively for Canadians.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/categories" className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-medium text-lg transition-colors inline-block text-center">
@@ -124,9 +124,9 @@ export default function Home() {
       {/* Call to Action Section */}
       <section className="py-16 bg-blue-50">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Ready to Join Canada's Digital Marketplace?</h2>
+          <h2 className="text-3xl font-bold mb-6">Ready to Join Canada&apos;s Digital Marketplace?</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Whether you're looking to buy premium CAD resources or sell your expertise, 
+            Whether you&apos;re looking to buy premium CAD resources or sell your expertise, 
             CAD Market connects Canadians with the digital tools they need.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

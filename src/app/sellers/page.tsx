@@ -35,7 +35,7 @@ export default function SellerDashboard() {
           <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Total Listings</h3>
             <p className="text-3xl font-bold text-blue-600">0</p>
-            <p className="text-sm text-gray-600 mt-2">You haven't created any listings yet.</p>
+            <p className="text-sm text-gray-600 mt-2">You haven&apos;t created any listings yet.</p>
           </div>
           
           <div className="bg-green-50 rounded-lg p-6 shadow-sm">
