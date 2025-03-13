@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CAD Market - Canada's Premier Digital Marketplace",
+  title: "CAD Market - Canada&apos;s Premier Digital Marketplace",
   description: "Buy and sell CAD designs, templates, and services exclusively for Canadians.",
 };
 
