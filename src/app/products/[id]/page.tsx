@@ -51,7 +51,7 @@ export default function Home() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Canada&#39;s Premier Digital Marketplace
+              Canada&apos;s Premier Digital Marketplace
             </h1>
             <p className="text-xl mb-8">
               Buy and sell CAD designs, templates, and services exclusively for Canadians.
@@ -135,10 +135,10 @@ export default function Home() {
       <section className="py-16 bg-blue-50">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Ready to Join Canada&#39;s Digital Marketplace?
+            Ready to Join Canada&apos;s Digital Marketplace?
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Whether you&#39;re looking to buy premium CAD resources or sell your expertise, 
+            Whether you&apos;re looking to buy premium CAD resources or sell your expertise, 
             CAD Market connects Canadians with the digital tools they need.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
